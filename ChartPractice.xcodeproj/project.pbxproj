@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D3923FE298DF98B00871218 /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3923FD298DF98B00871218 /* RecordViewModel.swift */; };
 		8DF1C036298B973B0035403E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1C035298B973B0035403E /* AppDelegate.swift */; };
 		8DF1C038298B973B0035403E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1C037298B973B0035403E /* SceneDelegate.swift */; };
 		8DF1C03A298B973B0035403E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1C039298B973B0035403E /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D3923FD298DF98B00871218 /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
 		8DF1C032298B973B0035403E /* ChartPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF1C035298B973B0035403E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DF1C037298B973B0035403E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				8DF1C035298B973B0035403E /* AppDelegate.swift */,
 				8DF1C037298B973B0035403E /* SceneDelegate.swift */,
 				8DF1C039298B973B0035403E /* ViewController.swift */,
+				8D3923FD298DF98B00871218 /* RecordViewModel.swift */,
 				8DF1C059298D07CD0035403E /* RecordChart.swift */,
 				8DF1C03B298B973B0035403E /* Main.storyboard */,
 				8DF1C03E298B973C0035403E /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF1C05D298D08320035403E /* ReportRecord.swift in Sources */,
+				8D3923FE298DF98B00871218 /* RecordViewModel.swift in Sources */,
 				8DF1C05E298D08320035403E /* DetailRecord.swift in Sources */,
 				8DF1C03A298B973B0035403E /* ViewController.swift in Sources */,
 				8DF1C036298B973B0035403E /* AppDelegate.swift in Sources */,
