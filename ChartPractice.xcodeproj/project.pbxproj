@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D3923FE298DF98B00871218 /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3923FD298DF98B00871218 /* RecordViewModel.swift */; };
+		8D392403298E08AA00871218 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D392402298E08AA00871218 /* ChartViewController.swift */; };
 		8DF1C036298B973B0035403E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1C035298B973B0035403E /* AppDelegate.swift */; };
 		8DF1C038298B973B0035403E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1C037298B973B0035403E /* SceneDelegate.swift */; };
 		8DF1C03A298B973B0035403E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1C039298B973B0035403E /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		8D3923FD298DF98B00871218 /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
+		8D392402298E08AA00871218 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		8DF1C032298B973B0035403E /* ChartPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF1C035298B973B0035403E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DF1C037298B973B0035403E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D3923FF298E086F00871218 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DF1C05C298D08320035403E /* DetailRecord.swift */,
+				8DF1C05B298D08320035403E /* ReportRecord.swift */,
+				8DF1C059298D07CD0035403E /* RecordChart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D392400298E088100871218 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DF1C040298B973C0035403E /* LaunchScreen.storyboard */,
+				8DF1C03B298B973B0035403E /* Main.storyboard */,
+				8DF1C039298B973B0035403E /* ViewController.swift */,
+				8D392402298E08AA00871218 /* ChartViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D392401298E088700871218 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D3923FD298DF98B00871218 /* RecordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		8DF1C029298B973B0035403E = {
 			isa = PBXGroup;
 			children = (
@@ -66,16 +97,12 @@
 		8DF1C034298B973B0035403E /* ChartPractice */ = {
 			isa = PBXGroup;
 			children = (
-				8DF1C05C298D08320035403E /* DetailRecord.swift */,
-				8DF1C05B298D08320035403E /* ReportRecord.swift */,
 				8DF1C035298B973B0035403E /* AppDelegate.swift */,
 				8DF1C037298B973B0035403E /* SceneDelegate.swift */,
-				8DF1C039298B973B0035403E /* ViewController.swift */,
-				8D3923FD298DF98B00871218 /* RecordViewModel.swift */,
-				8DF1C059298D07CD0035403E /* RecordChart.swift */,
-				8DF1C03B298B973B0035403E /* Main.storyboard */,
+				8D3923FF298E086F00871218 /* Model */,
+				8D392400298E088100871218 /* View */,
+				8D392401298E088700871218 /* ViewModel */,
 				8DF1C03E298B973C0035403E /* Assets.xcassets */,
-				8DF1C040298B973C0035403E /* LaunchScreen.storyboard */,
 				8DF1C043298B973C0035403E /* Info.plist */,
 			);
 			path = ChartPractice;
@@ -163,6 +190,7 @@
 				8DF1C05E298D08320035403E /* DetailRecord.swift in Sources */,
 				8DF1C03A298B973B0035403E /* ViewController.swift in Sources */,
 				8DF1C036298B973B0035403E /* AppDelegate.swift in Sources */,
+				8D392403298E08AA00871218 /* ChartViewController.swift in Sources */,
 				8DF1C05A298D07CD0035403E /* RecordChart.swift in Sources */,
 				8DF1C038298B973B0035403E /* SceneDelegate.swift in Sources */,
 			);
